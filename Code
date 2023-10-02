@@ -1,0 +1,13 @@
+notify("Administration Panel Loading...")
+
+(wait = 3)
+
+notify("Administration Panel Loaded!")
+
+(wait = 2)
+
+notify("Please wait!")
+
+(wait = 1)
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rjk0720/Roblox-Commands/master/AdminCommands.lua'))()
